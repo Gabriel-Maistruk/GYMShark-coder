@@ -1,0 +1,201 @@
+@media screen and (max-width:990px){
+    header{
+        h1{
+            margin-left: 30px;
+        }
+    }
+    main{
+        .productos{
+            .contenedor-productos-destacados{
+                .items-productos-destacados{
+                    margin-top: 20px;
+                    margin-bottom: 60px;
+                }
+            }
+        }
+        .accesorios{
+            .contenedor-accesorios-destacados{
+                .items-accesorios-destacados{
+                    margin-top: 20px;
+                    margin-bottom: 60px;
+                }
+            }
+        }
+        .contenedor-devoluciones{
+            .items-devoluciones{
+                padding: 60px;
+            }
+        }
+        .grid-container{
+            grid-template-rows: 1000px 400px;
+            grid-template-columns: 1fr;
+            grid-row-gap: 10px;
+            .grid-items{
+                .genero{
+                    margin-left: 80px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:495px){
+    body{
+        padding-bottom: 40px;
+    }
+    header{
+        display: flex;
+        justify-content: start;
+        h1{
+            width: 50%;
+            text-align: start;
+            a{
+                font-size: nth($font-size, 4);
+            }
+        }
+        .navbar navbar-expand-lg navbar-light{
+            width: 50%;
+        }
+    }
+    main{
+        .productos{
+            h2{
+                font-size: nth($font-size, 3);
+            }
+            .contenedor-productos-destacados{
+                .items-productos-destacados{
+                    img{
+                        width: 250px;
+                        height: 250px;
+                    }
+                    h3{
+                        font-size: nth($font-size, 3);
+                    }
+                    p{
+                        font-size: nth($font-size, 2);
+                    }
+                    button{
+                        font-size: nth($font-size, 2);
+                    }
+                }
+            }
+        }
+        .accesorios{
+            h2{
+                font-size: nth($font-size, 3);
+            }
+            .contenedor-accesorios-destacados{
+                .items-accesorios-destacados{
+                    img{
+                        width: 250px;
+                        height: 250px;
+                    }
+                    h3{
+                        font-size: nth($font-size, 3);
+                    }
+                    p{
+                        font-size: nth($font-size, 2);
+                    }
+                    button{
+                        font-size: nth($font-size, 2);
+                    }
+                }
+            }
+        }
+        .productos-principales{
+            h2{
+                font-size: nth($font-size, 3);
+            }
+            .contenedor-productos-principales{
+                .items-productos-principales{
+                    img{
+                        width: 250px;
+                        height: 250px;
+                    }
+                    h3{
+                        font-size: nth($font-size, 3);
+                    }
+                    p{
+                        font-size: nth($font-size, 2);
+                    }
+                    button{
+                        font-size: nth($font-size, 2);
+                    }
+                }
+            }
+        }
+        .accesorios-principales{
+            h2{
+                font-size: 15px;
+            }
+            .contenedor-accesorios-principales{
+                .items-accesorios-principales{
+                    img{
+                        width: 250px;
+                        height: 250px;
+                    }
+                    h3{
+                        font-size: nth($font-size, 3);
+                    }
+                    p{
+                        font-size: nth($font-size, 2);
+                    }
+                    button{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .contenedor-devoluciones{
+            .items-devoluciones{
+                ul{
+                    li{
+                        padding: 15px;
+                    }
+                }
+            }
+        }
+        .grid-container{
+            grid-template-rows: 685px;
+            .grid-items{
+                font-size: 20px;
+                .formulario{
+                    label{
+                        margin: 0;
+                        font-size: nth($font-size, 3);
+                    }
+                }
+                .genero{
+                    font-size: nth($font-size, 2);
+                }
+                .genero-opciones{
+                    font-size: nth($font-size, 2);
+                    input{
+                        margin: 10px;
+                    }
+                }
+                .textarea{
+                    font-size: small;
+                }
+            }
+            .grid-items-mapa{
+                display: none;
+            }
+        }
+    }
+    footer{
+        .footer-contenedor{
+            padding-top: 5px; 
+            padding-bottom: 0;
+            ul{
+                display: none;
+            }
+            div{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                padding: 5px;
+            }
+        }
+    }
+}

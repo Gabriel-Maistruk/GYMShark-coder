@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black;
+  position: relative;
+  padding-bottom: 15em;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif; }
+
+main .productos .contenedor-productos-destacados .items-productos-destacados, main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados, main .productos-principales .contenedor-productos-principales .items-productos-principales, main .accesorios-principales .contenedor-accesorios-principales .items-accesorios-principales, main .contenedor-devoluciones .items-devoluciones ul {
+  box-shadow: 0px 6px 25px 5px rgba(0, 255, 255, 0.5);
+  -webkit-box-shadow: 0px 6px 25px 5px rgba(0, 255, 255, 0.5);
+  -moz-box-shadow: 0px 6px 25px 5px rgba(0, 255, 255, 0.5); }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161a1d;
+  width: 100%; }
+  header h1 {
+    width: 20%;
+    text-align: center; }
+    header h1 a {
+      color: white;
+      text-decoration: none;
+      transition: 1s;
+      font-size: 45px; }
+      header h1 a:hover {
+        color: aqua; }
+  header .navbar {
+    width: 60%; }
+    header .navbar .container-fluid {
+      width: 100%; }
+      header .navbar .container-fluid .collapse .navbar-nav {
+        width: 100%;
+        padding: 20px; }
+        header .navbar .container-fluid .collapse .navbar-nav .nav-item {
+          width: 100%; }
+          header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+            color: #dee2e6; }
+            header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover {
+              color: aqua; }
+
+main .bienvenidosCarrusel {
+  margin-right: 60px;
+  margin-left: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+main .productos {
+  padding-bottom: 10px; }
+  main .productos h2 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-style: italic; }
+  main .productos .contenedor-productos-destacados {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white; }
+    main .productos .contenedor-productos-destacados .items-productos-destacados {
+      border: solid 2px white;
+      padding-bottom: 20px; }
+      main .productos .contenedor-productos-destacados .items-productos-destacados img {
+        width: 380px;
+        height: 400px; }
+      main .productos .contenedor-productos-destacados .items-productos-destacados h3 {
+        padding-top: 10px; }
+      main .productos .contenedor-productos-destacados .items-productos-destacados button {
+        border: solid 2px white;
+        border-radius: 30px;
+        font-size: 20px;
+        padding: 5px;
+        margin: 5px;
+        transition: 1s; }
+        main .productos .contenedor-productos-destacados .items-productos-destacados button:hover {
+          background-color: aqua; }
+
+main .accesorios {
+  padding-bottom: 10px; }
+  main .accesorios h2 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-style: italic; }
+  main .accesorios .contenedor-accesorios-destacados {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white; }
+    main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados {
+      border: solid 2px white;
+      padding-bottom: 20px; }
+      main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados img {
+        width: 380px;
+        height: 400px; }
+      main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados h3 {
+        padding-top: 10px; }
+      main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados button {
+        border: solid 2px white;
+        border-radius: 30px;
+        font-size: 20px;
+        padding: 5px;
+        margin: 5px;
+        transition: 1s; }
+        main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados button:hover {
+          background-color: aqua; }
+
+main .productos-principales {
+  padding-top: 40px; }
+  main .productos-principales h2 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-style: italic; }
+  main .productos-principales .contenedor-productos-principales {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white; }
+    main .productos-principales .contenedor-productos-principales .items-productos-principales {
+      margin-bottom: 60px; }
+      main .productos-principales .contenedor-productos-principales .items-productos-principales img {
+        width: 380px;
+        height: 400px; }
+      main .productos-principales .contenedor-productos-principales .items-productos-principales h3 {
+        padding-top: 10px; }
+      main .productos-principales .contenedor-productos-principales .items-productos-principales button {
+        border: solid 2px white;
+        border-radius: 30px;
+        font-size: 20px;
+        padding: 5px;
+        margin: 5px;
+        margin-bottom: 23px;
+        transition: 1s; }
+        main .productos-principales .contenedor-productos-principales .items-productos-principales button:hover {
+          background-color: aqua; }
+
+main .accesorios-principales {
+  padding-top: 40px; }
+  main .accesorios-principales h2 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-style: italic; }
+  main .accesorios-principales .contenedor-accesorios-principales {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    color: white; }
+    main .accesorios-principales .contenedor-accesorios-principales .items-accesorios-principales {
+      margin-bottom: 60px; }
+      main .accesorios-principales .contenedor-accesorios-principales .items-accesorios-principales img {
+        width: 380px;
+        height: 400px; }
+      main .accesorios-principales .contenedor-accesorios-principales .items-accesorios-principales h3 {
+        padding-top: 10px; }
+      main .accesorios-principales .contenedor-accesorios-principales .items-accesorios-principales button {
+        border: solid 2px white;
+        border-radius: 30px;
+        font-size: 20px;
+        padding: 5px;
+        margin: 5px;
+        margin-bottom: 23px;
+        transition: 1s; }
+        main .accesorios-principales .contenedor-accesorios-principales .items-accesorios-principales button:hover {
+          background-color: aqua; }
+
+main .contenedor-devoluciones {
+  padding-top: 40px; }
+  main .contenedor-devoluciones .titulo-devoluciones {
+    color: white;
+    padding: 10px;
+    text-align: center; }
+  main .contenedor-devoluciones .items-devoluciones {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    main .contenedor-devoluciones .items-devoluciones ul {
+      border: solid 2px white;
+      padding: 20px;
+      margin: 20px;
+      list-style: none; }
+      main .contenedor-devoluciones .items-devoluciones ul li {
+        padding: 5px;
+        color: white;
+        list-style: circle;
+        margin-left: 10px; }
+
+main .grid-container {
+  display: grid;
+  grid-template-rows: 60em;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px; }
+  main .grid-container .grid-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 20px; }
+    main .grid-container .grid-items .formulario {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end; }
+      main .grid-container .grid-items .formulario label {
+        margin: 10px;
+        font-size: 20px; }
+        main .grid-container .grid-items .formulario label input {
+          margin: 10px; }
+    main .grid-container .grid-items .genero {
+      text-align: start;
+      width: 40%;
+      font-size: 20px;
+      margin-left: 20px;
+      text-decoration: underline; }
+    main .grid-container .grid-items .textarea {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      main .grid-container .grid-items .textarea .submit-reset {
+        width: 80%;
+        display: flex;
+        justify-content: end;
+        flex-direction: row-reverse;
+        padding: 5px; }
+        main .grid-container .grid-items .textarea .submit-reset input {
+          margin: 5px;
+          padding: 5px; }
+  main .grid-container .grid-items-mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white; }
+
+footer {
+  background-color: #161a1d;
+  padding: 0.1em 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  footer .footer-contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 5px; }
+    footer .footer-contenedor ul {
+      list-style: none; }
+      footer .footer-contenedor ul li {
+        padding: 3px; }
+        footer .footer-contenedor ul li a {
+          text-decoration: none;
+          color: white;
+          transition: 1s; }
+          footer .footer-contenedor ul li a:hover {
+            color: aqua; }
+    footer .footer-contenedor div a {
+      color: white; }
+      footer .footer-contenedor div a svg {
+        margin: 5px;
+        width: 30px;
+        height: 30px;
+        transition: 1s; }
+        footer .footer-contenedor div a svg:hover {
+          color: aqua; }
+  footer p {
+    text-align: center;
+    color: white; }
+
+@media screen and (max-width: 990px) {
+  header h1 {
+    margin-left: 30px; }
+  main .productos .contenedor-productos-destacados .items-productos-destacados {
+    margin-top: 20px;
+    margin-bottom: 60px; }
+  main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados {
+    margin-top: 20px;
+    margin-bottom: 60px; }
+  main .contenedor-devoluciones .items-devoluciones {
+    padding: 60px; }
+  main .grid-container {
+    grid-template-rows: 1000px 400px;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px; }
+    main .grid-container .grid-items .genero {
+      margin-left: 80px; } }
+
+@media screen and (max-width: 495px) {
+  body {
+    padding-bottom: 40px; }
+  header {
+    display: flex;
+    justify-content: start; }
+    header h1 {
+      width: 50%;
+      text-align: start; }
+      header h1 a {
+        font-size: 20px; }
+    header .navbar navbar-expand-lg navbar-light {
+      width: 50%; }
+  main .productos h2 {
+    font-size: 15px; }
+  main .productos .contenedor-productos-destacados .items-productos-destacados img {
+    width: 250px;
+    height: 250px; }
+  main .productos .contenedor-productos-destacados .items-productos-destacados h3 {
+    font-size: 15px; }
+  main .productos .contenedor-productos-destacados .items-productos-destacados p {
+    font-size: 12px; }
+  main .productos .contenedor-productos-destacados .items-productos-destacados button {
+    font-size: 12px; }
+  main .accesorios h2 {
+    font-size: 15px; }
+  main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados img {
+    width: 250px;
+    height: 250px; }
+  main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados h3 {
+    font-size: 15px; }
+  main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados p {
+    font-size: 12px; }
+  main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados button {
+    font-size: 12px; }
+  main .productos-principales h2 {
+    font-size: 15px; }
+  main .productos-principales .contenedor-productos-principales .items-productos-principales img {
+    width: 250px;
+    height: 250px; }
+  main .productos-principales .contenedor-productos-principales .items-productos-principales h3 {
+    font-size: 15px; }
+  main .productos-principales .contenedor-productos-principales .items-productos-principales p {
+    font-size: 12px; }
+  main .productos-principales .contenedor-productos-principales .items-productos-principales button {
+    font-size: 12px; }
+  main .accesorios-principales h2 {
+    font-size: 15px; }
+  main .accesorios-principales .contenedor-accesorios-principales .items-accesorios-principales img {
+    width: 250px;
+    height: 250px; }
+  main .accesorios-principales .contenedor-accesorios-principales .items-accesorios-principales h3 {
+    font-size: 15px; }
+  main .accesorios-principales .contenedor-accesorios-principales .items-accesorios-principales p {
+    font-size: 12px; }
+  main .accesorios-principales .contenedor-accesorios-principales .items-accesorios-principales button {
+    font-size: 12px; }
+  main .contenedor-devoluciones .items-devoluciones ul li {
+    padding: 15px; }
+  main .grid-container {
+    grid-template-rows: 685px; }
+    main .grid-container .grid-items {
+      font-size: 20px; }
+      main .grid-container .grid-items .formulario label {
+        margin: 0;
+        font-size: 15px; }
+      main .grid-container .grid-items .genero {
+        font-size: 12px; }
+      main .grid-container .grid-items .genero-opciones {
+        font-size: 12px; }
+        main .grid-container .grid-items .genero-opciones input {
+          margin: 10px; }
+      main .grid-container .grid-items .textarea {
+        font-size: small; }
+    main .grid-container .grid-items-mapa {
+      display: none; }
+  footer .footer-contenedor {
+    padding-top: 5px;
+    padding-bottom: 0; }
+    footer .footer-contenedor ul {
+      display: none; }
+    footer .footer-contenedor div {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 5px; } }

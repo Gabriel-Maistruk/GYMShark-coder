@@ -1,0 +1,26 @@
+//*PALETA DE COLORES
+$color-principal:black;
+$color-secundario: #161a1d;
+$color-terciario:white;
+$color-cuarto: aqua;
+$color-quinto:#dee2e6;
+//*LISTA FONT-SIZE
+$font-size:
+10px,
+12px,
+15px,
+20px,
+45px;
+
+//*MIXINS
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+//*EXTENDS
+%box-shadown{
+    box-shadow: 0px 6px 25px 5px rgba(0, 255, 255, 0.5);
+    -webkit-box-shadow: 0px 6px 25px 5px rgba(0, 255, 255, 0.5);
+    -moz-box-shadow: 0px 6px 25px 5px rgba(0, 255, 255, 0.5);
+}

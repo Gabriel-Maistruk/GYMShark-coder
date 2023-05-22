@@ -1,0 +1,245 @@
+main{
+    .bienvenidosCarrusel{
+        margin-right: 60px;
+        margin-left: 60px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .productos{
+        padding-bottom: 10px;
+        h2{
+            text-align: center;
+            padding: 10px;
+            color: $color-terciario;
+            font-style: italic;
+        }
+        .contenedor-productos-destacados{
+            padding: 30px;
+            @include flex (flex,space-around,center);
+            flex-wrap: wrap;
+            text-align: center;
+            color: $color-terciario;
+            .items-productos-destacados{
+                @extend %box-shadown;
+                border: solid 2px $color-terciario;
+                padding-bottom: 20px;
+                img{
+                    width: 380px;
+                    height: 400px;
+                }
+                h3{
+                    padding-top: 10px;
+                }
+                button{
+                    border: solid 2px $color-terciario;
+                    border-radius: 30px;
+                    font-size: nth($font-size, 4);
+                    padding: 5px;
+                    margin: 5px;
+                    transition: 1s;
+                    &:hover{
+                        background-color: $color-cuarto;
+                    }
+                }
+            }
+        }
+    }
+    .accesorios{
+        padding-bottom: 10px;
+        h2{
+            text-align: center;
+            padding: 10px;
+            color: $color-terciario;
+            font-style: italic;
+        }
+        .contenedor-accesorios-destacados{
+            padding: 30px;
+            @include flex (flex,space-around,center);
+            flex-wrap: wrap;
+            text-align: center;
+            color: $color-terciario;
+            .items-accesorios-destacados{
+                @extend %box-shadown;
+                    border: solid 2px $color-terciario;
+                    padding-bottom: 20px;
+                img{
+                    width: 380px;
+                    height: 400px;
+                }
+                h3{
+                    padding-top: 10px;
+                }
+                button{
+                    border: solid 2px $color-terciario;
+                    border-radius: 30px;
+                    font-size: nth($font-size, 4);
+                    padding: 5px;
+                    margin: 5px;
+                    transition: 1s;
+                    &:hover{
+                        background-color: $color-cuarto;
+                    }
+                }
+            }
+        }
+    }
+    
+    .productos-principales{
+        padding-top: 40px;
+        h2{
+            text-align: center;
+            padding: 10px;
+            color: $color-terciario;
+            font-style: italic;
+        }
+        .contenedor-productos-principales{
+            padding: 30px;
+            @include flex (flex,space-around,center);
+            flex-wrap: wrap;
+            text-align: center;
+            color: $color-terciario;
+            .items-productos-principales{
+                @extend %box-shadown;
+                margin-bottom: 60px;
+                img{
+                    width: 380px;
+                    height: 400px;
+                }
+                h3{
+                    padding-top: 10px;
+                }
+                button{
+                    border: solid 2px $color-terciario;
+                    border-radius: 30px;
+                    font-size: nth($font-size, 4);
+                    padding: 5px;
+                    margin: 5px;
+                    margin-bottom: 23px;
+                    transition: 1s;
+                    &:hover{
+                        background-color: $color-cuarto;
+                    }
+                }
+            }
+        }
+    }
+
+    .accesorios-principales{
+        padding-top: 40px;
+        h2{
+            text-align: center;
+            padding: 10px;
+            color: $color-terciario;
+            font-style: italic;
+        }
+        .contenedor-accesorios-principales{
+            padding: 30px;
+            @include flex (flex, space-around, center);
+            text-align: center;
+            flex-wrap: wrap;
+            color: $color-terciario;
+            .items-accesorios-principales{
+                @extend %box-shadown;
+                    margin-bottom: 60px;
+                img{
+                    width: 380px;
+                    height: 400px;
+                }
+                h3{
+                    padding-top: 10px;
+                }
+                button{
+                    border: solid 2px $color-terciario;
+                    border-radius: 30px;
+                    font-size: nth($font-size, 4);
+                    padding: 5px;
+                    margin: 5px;
+                    margin-bottom: 23px;
+                    transition: 1s;
+                    &:hover{
+                        background-color: $color-cuarto;
+                    }
+                }
+            }
+        }
+    }
+
+    .contenedor-devoluciones{
+        padding-top: 40px;
+        .titulo-devoluciones{
+            color: $color-terciario;
+            padding: 10px;
+            text-align: center;
+        }
+        .items-devoluciones{
+            padding: 200px;
+            @include flex (flex,center, center);
+            ul{
+                border: solid 2px $color-terciario;
+                padding: 20px;
+                margin: 20px;
+                list-style: none;
+                @extend %box-shadown;
+                li{
+                    padding: 5px;
+                    color: $color-terciario;
+                    list-style: circle;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-rows: 60em;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 50px;
+        .grid-items{
+            @include flex (flex,center,center);
+            flex-direction: column;
+            color: $color-terciario;
+            font-size: nth($font-size, 4);
+            .formulario{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                label{
+                    margin: 10px;
+                    font-size: nth($font-size, 4);
+                    input{
+                        margin: 10px;
+                    }
+                }
+            }
+            .genero{
+                text-align: start;
+                width: 40%;
+                font-size: nth($font-size, 4);
+                margin-left: 20px;
+                text-decoration:underline;
+            }
+            .textarea{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .submit-reset{
+                    width: 80%;
+                    display: flex;
+                    justify-content:end;
+                    flex-direction: row-reverse;
+                    padding: 5px;
+                    input{
+                        margin: 5px;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+        .grid-items-mapa{
+            @include flex (flex, center,center);
+            flex-direction: column;
+            color: $color-terciario;
+        }
+    }
+}
