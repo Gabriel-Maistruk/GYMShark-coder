@@ -20,9 +20,13 @@ main{
             text-align: center;
             color: $color-terciario;
             .items-productos-destacados{
-                @extend %box-shadown;
                 border: solid 2px $color-terciario;
                 padding-bottom: 20px;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    @extend %box-shadown;
+                }
                 img{
                     width: 380px;
                     height: 400px;
@@ -59,9 +63,13 @@ main{
             text-align: center;
             color: $color-terciario;
             .items-accesorios-destacados{
-                @extend %box-shadown;
                     border: solid 2px $color-terciario;
                     padding-bottom: 20px;
+                    transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    @extend %box-shadown;
+                }
                 img{
                     width: 380px;
                     height: 400px;
@@ -99,8 +107,13 @@ main{
             text-align: center;
             color: $color-terciario;
             .items-productos-principales{
-                @extend %box-shadown;
+                border: 2px solid white;
                 margin-bottom: 60px;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    @extend %box-shadown;
+                }
                 img{
                     width: 380px;
                     height: 400px;
@@ -139,8 +152,13 @@ main{
             flex-wrap: wrap;
             color: $color-terciario;
             .items-accesorios-principales{
-                @extend %box-shadown;
+                border: 2px solid white;
                     margin-bottom: 60px;
+                    transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    @extend %box-shadown;
+                }
                 img{
                     width: 380px;
                     height: 400px;

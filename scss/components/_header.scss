@@ -1,28 +1,23 @@
 header{
-    @include flex(flex, space-between, center);
     background-color: $color-secundario;
     width: 100%;
-    h1{
-        width: 20%;
-        text-align: center;
-        a{
-            color: $color-terciario;
-            text-decoration: none;
-            transition: 1s;
-            font-size: nth($font-size, 5);
-            &:hover{
-                color: $color-cuarto;
-            }
-        }
-    }
     .navbar{
-        width: 60%;
+        width: 100%;
         .container-fluid{
             width: 100%;
+            h1{
+                padding: 15px;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    margin: 45px;
+                }
+            }
             .collapse{
                 .navbar-nav{
-                    width: 100%;
-                    padding: 20px;
+                    width: 90%;
+                    margin: auto;
+                    text-align: end;
                     .nav-item{
                         width: 100%;
                         .nav-link{
