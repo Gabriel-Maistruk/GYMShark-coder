@@ -15,6 +15,14 @@ main .productos .contenedor-productos-destacados .items-productos-destacados:hov
   -webkit-box-shadow: 0px 6px 25px 5px rgba(0, 255, 255, 0.5);
   -moz-box-shadow: 0px 6px 25px 5px rgba(0, 255, 255, 0.5); }
 
+main .productos .contenedor-productos-destacados .items-productos-destacados button, main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados button, main .productos-principales .contenedor-productos-principales .items-productos-principales button, main .accesorios-principales .contenedor-accesorios-principales .items-accesorios-principales button {
+  border: solid 2px white;
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  transition: 1s; }
+
 header {
   background-color: #161a1d;
   width: 100%; }
@@ -71,15 +79,8 @@ main .productos {
         height: 400px; }
       main .productos .contenedor-productos-destacados .items-productos-destacados h3 {
         padding-top: 10px; }
-      main .productos .contenedor-productos-destacados .items-productos-destacados button {
-        border: solid 2px white;
-        border-radius: 30px;
-        font-size: 20px;
-        padding: 5px;
-        margin: 5px;
-        transition: 1s; }
-        main .productos .contenedor-productos-destacados .items-productos-destacados button:hover {
-          background-color: aqua; }
+      main .productos .contenedor-productos-destacados .items-productos-destacados button:hover {
+        background-color: aqua; }
 
 main .accesorios {
   padding-bottom: 10px; }
@@ -107,15 +108,8 @@ main .accesorios {
         height: 400px; }
       main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados h3 {
         padding-top: 10px; }
-      main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados button {
-        border: solid 2px white;
-        border-radius: 30px;
-        font-size: 20px;
-        padding: 5px;
-        margin: 5px;
-        transition: 1s; }
-        main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados button:hover {
-          background-color: aqua; }
+      main .accesorios .contenedor-accesorios-destacados .items-accesorios-destacados button:hover {
+        background-color: aqua; }
 
 main .productos-principales {
   padding-top: 40px; }
@@ -144,13 +138,7 @@ main .productos-principales {
       main .productos-principales .contenedor-productos-principales .items-productos-principales h3 {
         padding-top: 10px; }
       main .productos-principales .contenedor-productos-principales .items-productos-principales button {
-        border: solid 2px white;
-        border-radius: 30px;
-        font-size: 20px;
-        padding: 5px;
-        margin: 5px;
-        margin-bottom: 23px;
-        transition: 1s; }
+        margin-bottom: 23px; }
         main .productos-principales .contenedor-productos-principales .items-productos-principales button:hover {
           background-color: aqua; }
 
@@ -181,13 +169,7 @@ main .accesorios-principales {
       main .accesorios-principales .contenedor-accesorios-principales .items-accesorios-principales h3 {
         padding-top: 10px; }
       main .accesorios-principales .contenedor-accesorios-principales .items-accesorios-principales button {
-        border: solid 2px white;
-        border-radius: 30px;
-        font-size: 20px;
-        padding: 5px;
-        margin: 5px;
-        margin-bottom: 23px;
-        transition: 1s; }
+        margin-bottom: 23px; }
         main .accesorios-principales .contenedor-accesorios-principales .items-accesorios-principales button:hover {
           background-color: aqua; }
 
@@ -373,14 +355,16 @@ footer {
       main .grid-container .grid-items .textarea {
         display: none; }
     main .grid-container .grid-items-mapa {
-      width: 30%;
+      width: 100%;
       margin: auto;
       margin-bottom: 70px; }
       main .grid-container .grid-items-mapa p {
-        font-size: 12px; }
+        font-size: 10px;
+        width: 100%;
+        text-align: center; }
       main .grid-container .grid-items-mapa .mapa iframe {
-        width: 280px;
-        height: 280px; }
+        width: 230px;
+        height: 230px; }
   footer .footer-contenedor {
     padding-top: 5px;
     padding-bottom: 0; }
