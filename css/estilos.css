@@ -29,9 +29,9 @@ header {
           text-decoration: none;
           margin: 45px; }
       header .navbar .container-fluid .collapse .navbar-nav {
-        width: 90%;
+        width: 100%;
         margin: auto;
-        text-align: end; }
+        text-align: center; }
         header .navbar .container-fluid .collapse .navbar-nav .nav-item {
           width: 100%; }
           header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
@@ -225,21 +225,6 @@ main .grid-container {
     flex-direction: column;
     color: white;
     font-size: 20px; }
-    main .grid-container .grid-items .formulario {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end; }
-      main .grid-container .grid-items .formulario label {
-        margin: 10px;
-        font-size: 20px; }
-        main .grid-container .grid-items .formulario label input {
-          margin: 10px; }
-    main .grid-container .grid-items .genero {
-      text-align: start;
-      width: 40%;
-      font-size: 20px;
-      margin-left: 20px;
-      text-decoration: underline; }
     main .grid-container .grid-items .textarea {
       display: flex;
       flex-direction: column;
@@ -299,9 +284,7 @@ footer {
 
 @media screen and (max-width: 990px) {
   header .navbar .container-fluid .collapse .navbar-nav {
-    width: 100%;
-    text-align: start;
-    margin-left: 40px; }
+    text-align: start; }
   main .productos .contenedor-productos-destacados .items-productos-destacados {
     margin-top: 20px;
     margin-bottom: 60px; }
@@ -320,12 +303,13 @@ footer {
 @media screen and (max-width: 495px) {
   body {
     padding-bottom: 40px; }
-  header .navbar .container-fluid h1 a {
-    font-size: 20px; }
+  header .navbar .container-fluid h1 {
+    padding: 4px; }
+    header .navbar .container-fluid h1 a {
+      font-size: 20px;
+      margin: 10px; }
   header .navbar .container-fluid .collapse .navbar-nav {
-    width: 100%;
-    text-align: center;
-    margin: auto; }
+    text-align: start; }
     header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
       font-size: 15px; }
   main .productos h2 {
@@ -378,19 +362,25 @@ footer {
     grid-template-rows: 685px; }
     main .grid-container .grid-items {
       font-size: 20px; }
-      main .grid-container .grid-items .formulario label {
-        margin: 0;
-        font-size: 15px; }
-      main .grid-container .grid-items .genero {
-        font-size: 12px; }
-      main .grid-container .grid-items .genero-opciones {
-        font-size: 12px; }
-        main .grid-container .grid-items .genero-opciones input {
-          margin: 10px; }
+      main .grid-container .grid-items form {
+        width: 80%;
+        margin: auto; }
+        main .grid-container .grid-items form p {
+          text-align: center;
+          width: 100%;
+          height: 60px;
+          margin: auto; }
       main .grid-container .grid-items .textarea {
-        font-size: small; }
+        display: none; }
     main .grid-container .grid-items-mapa {
-      display: none; }
+      width: 30%;
+      margin: auto;
+      margin-bottom: 70px; }
+      main .grid-container .grid-items-mapa p {
+        font-size: 12px; }
+      main .grid-container .grid-items-mapa .mapa iframe {
+        width: 280px;
+        height: 280px; }
   footer .footer-contenedor {
     padding-top: 5px;
     padding-bottom: 0; }
@@ -400,4 +390,7 @@ footer {
       width: 100%;
       display: flex;
       justify-content: center;
-      padding: 5px; } }
+      margin: auto; }
+      footer .footer-contenedor div a svg {
+        width: 20px;
+        height: 20px; } }

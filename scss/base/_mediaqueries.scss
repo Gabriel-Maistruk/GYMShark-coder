@@ -4,9 +4,7 @@
             .container-fluid{
                 .collapse{
                     .navbar-nav{
-                        width: 100%;
                         text-align: start;
-                        margin-left: 40px;
                     }
                 }
             }
@@ -55,15 +53,15 @@
         .navbar{
             .container-fluid{
                 h1{
+                    padding: 4px;
                     a{
                         font-size: nth($font-size, 4);
+                        margin: 10px;
                     }
                 }
                 .collapse{
                     .navbar-nav{
-                        width: 100%;
-                        text-align: center;
-                        margin: auto;
+                        text-align: start;
                         .nav-item{
                             .nav-link{
                                 font-size: nth($font-size, 3);
@@ -158,7 +156,7 @@
                         font-size: nth($font-size, 2);
                     }
                     button{
-                        font-size: 12px;
+                        font-size: nth($font-size, 2);
                     }
                 }
             }
@@ -175,28 +173,34 @@
         .grid-container{
             grid-template-rows: 685px;
             .grid-items{
-                font-size: 20px;
-                .formulario{
-                    label{
-                        margin: 0;
-                        font-size: nth($font-size, 3);
-                    }
-                }
-                .genero{
-                    font-size: nth($font-size, 2);
-                }
-                .genero-opciones{
-                    font-size: nth($font-size, 2);
-                    input{
-                        margin: 10px;
+                font-size: nth($font-size, 4);
+                form{
+                    width: 80%;
+                    margin: auto;
+                    p{
+                        text-align: center;
+                        width: 100%;
+                        height: 60px;
+                        margin: auto;
                     }
                 }
                 .textarea{
-                    font-size: small;
+                    display: none;
                 }
             }
             .grid-items-mapa{
-                display: none;
+                width: 30%;
+                margin: auto;
+                margin-bottom: 70px;
+                p{
+                    font-size: nth($font-size, 2);
+                }
+                .mapa{
+                    iframe{
+                        width: 280px;
+                        height: 280px;
+                    }
+                }
             }
         }
     }
@@ -211,7 +215,13 @@
                 width: 100%;
                 display: flex;
                 justify-content: center;
-                padding: 5px;
+                margin: auto;
+                a{
+                    svg{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
             }
         }
     }
